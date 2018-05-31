@@ -1,0 +1,5 @@
+name: dart2_vm_defer
+
+dev_dependencies:
+  test:
+ 
