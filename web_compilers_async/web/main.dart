@@ -19,5 +19,7 @@ abstract class HasEvent {
 
 class AsyncDoEvent implements HasEvent {
   @dart2js.noInline
-  void doEvent() async {}
+  void doEvent() async {
+    print('doEvent()');
+  }
 }
